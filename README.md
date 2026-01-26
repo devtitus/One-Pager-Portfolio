@@ -149,14 +149,14 @@ To customize the portfolio for your own use:
 ## 👨‍💻 Developer Information
 
 ### 👤 Author
-- **👨‍💻 Name**: Melwyn John (Melwyn Titus)
+- **👨‍💻 Name**: Melwyn Titus
 - **💼 Role**: Frontend Developer
 
 ### ⚖️ License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ### ©️ Copyright
-Copyright © 2024-2025 Melwyn John. All Rights Reserved.
+Copyright © 2024-2025 Melwyn Titus. All Rights Reserved.
 
 ### 📧 Contact
 For inquiries or collaboration opportunities, please use the contact form on the website or reach out through the provided social media links.
