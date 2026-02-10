@@ -16,55 +16,60 @@
 <body>
 
     <header class="header">
-        <a href="#" class="logo">Portfolio</a>
+        <div class="header-wrapper">
+            <a href="#" class="logo">Melwyn</a>
 
-        <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-menu' id="menu-icon"></i>
 
-        <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-        </nav>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
     </header>
 
     <!-- Home Section-->
     <section class="home" id="home">
-        <div class="home-content">
-            <h3>Hello, It's Me</h3>
-            <h1>Melwyn John</h1>
-            <h3>And I'm a <span class="multiple-text">Frontend Developer</span></h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusamus reprehenderit temporibus sit? Ut deserunt aut eveniet vitae sunt tempora voluptatibus!</p>
+        <div class="section-wrapper">
+            <div class="home-content">
+                <h3>Hello, I'm</h3>
+                <h1>Melwyn Titus</h1>
+                <h3>a <span class="multiple-text">Full Stack Developer</span></h3>
+                <p>Transforming complex challenges into elegant Solutions.</p>
 
-            <div class="social-media">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
-                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
-                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                <div class="social-media">
+                    <a href="https://www.linkedin.com/in/melwyn-titus-8125bb214/" target="_blank" aria-label="LinkedIn Profile" title="My LinkeIn Profile"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/devtitus/" target="_blank" aria-label="Github Profile" title="My Github Profile"><i class='bx bxl-github'></i></a>
+                    <a href="https://www.melwyn.co.in/" target="_blank" aria-label="Latest Website" title="Latest Website Link"><i class='bx bx-link-external'></i></a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
             </div>
-            <a href="#" class="btn">Download CV</a>
-        </div>
 
-        <div class="home-img">
-            <img src="images/home.png" alt="">
+            <div class="home-img">
+                <img src="images/home.webp" alt="Melwyn Titus Image">
+            </div>
         </div>
     </section>
 
     <!-- about section -->
     <section class="about" id="about">
-        <div class="about-img">
-            <img src="images/about.png" alt="">
-        </div>
+        <div class="section-wrapper">
+            <div class="about-img">
+                <img src="images/about.webp" alt="About Melwyn Titus">
+            </div>
 
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>Frontend Developer</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vel, accusantium nesciunt quisquam
-                obcaecati ratione!</p>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Full Stack Developer</h3>
+                <p>Turning complex problems into elegant, user-centric products. With expertise in modern web
+                    technologies, I specialize in
+                    creating scalable, performant applications that make a difference.</p>
 
-            <a href="#" class="btn">Read More</a>
+                <!-- <a href="#" class="btn">Read More</a> -->
+            </div>
         </div>
     </section>
 
@@ -77,21 +82,42 @@
             <div class="services-box">
                 <i class='bx bx-code-alt'></i>
                 <h3>Web Development</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptas?</p>
+                <p>Fast, responsive, and scalable websites built with modern web technologies.</p>
                 <a href="" class="btn">Read More</a>
             </div>
 
             <div class="services-box">
                 <i class='bx bxs-paint'></i>
                 <h3>Graphic Design</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptas?</p>
+                <p>Visually compelling designs that communicate clearly and elevate your brand.</p>
                 <a href="" class="btn">Read More</a>
             </div>
 
             <div class="services-box">
                 <i class='bx bx-bar-chart-alt'></i>
-                <h3>Digital Marketing</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, voluptas?</p>
+                <h3>AI & Automation Solutions</h3>
+                <p>Build smart systems that save time and scale operations.</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>SaaS & Dashboard Development</h3>
+                <p>Design and build scalable SaaS products & internal tools.</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>API & Backend Development</h3>
+                <p>Reliable backends that power modern applications.</p>
+                <a href="" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>UI/UX & Product Design</h3>
+                <p>Interfaces that are clean, usable, and conversion-focused.</p>
                 <a href="" class="btn">Read More</a>
             </div>
         </div>
@@ -104,7 +130,7 @@
 
         <div class="portfolio-container">
             <div class="portfolio-box">
-                <img src="/images/portfolio1.jpg" alt="">
+                <img src="/images/portfolio-1.webp" alt="">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, facere.</p>
@@ -113,7 +139,7 @@
             </div>
 
             <div class="portfolio-box">
-                <img src="/images/portfolio2.jpg" alt="">
+                <img src="/images/portfolio-2.webp" alt="">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, facere.</p>
@@ -122,7 +148,7 @@
             </div>
 
             <div class="portfolio-box">
-                <img src="/images/portfolio3.jpg" alt="">
+                <img src="/images/portfolio-3.webp" alt="">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, facere.</p>
@@ -131,7 +157,7 @@
             </div>
 
             <div class="portfolio-box">
-                <img src="/images/portfolio4.jpg" alt="">
+                <img src="/images/portfolio-4.webp" alt="">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, facere.</p>
@@ -140,7 +166,7 @@
             </div>
 
             <div class="portfolio-box">
-                <img src="/images/portfolio5.jpg" alt="">
+                <img src="/images/portfolio-5.webp" alt="">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, facere.</p>
@@ -149,7 +175,7 @@
             </div>
 
             <div class="portfolio-box">
-                <img src="/images/portfolio6.jpg" alt="">
+                <img src="/images/portfolio-6.webp" alt="">
                 <div class="portfolio-layer">
                     <h4>Web Design</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, facere.</p>
@@ -165,10 +191,11 @@
         <form action="#">
             <div class="input-box">
                 <input type="text" placeholder="Full Name">
+            </div>
+            <div class="input-box">
                 <input type="email" placeholder="Email Address">
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
                 <input type="email" placeholder="Email Subject">
             </div>
 

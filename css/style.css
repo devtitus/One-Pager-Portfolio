@@ -41,9 +41,17 @@ section {
     padding: 2rem 9%;
     background: var(--bg-color);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     z-index: 100;
+}
+
+.header-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
 }
 
 .header .sticky {
@@ -81,6 +89,15 @@ section {
     align-items: center;
 }
 
+.section-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+}
+
 .home-content h3 {
     font-size: 3.2rem;
     font-weight: 700;
@@ -101,7 +118,7 @@ span {
 }
 
 .home-img img {
-    width: 35vw;
+    width: 30vw;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -168,12 +185,16 @@ span {
 }
 
 .about-img img {
-    width: 35vw;
+    width: 30vw;
 }
 
 .heading {
     text-align: center;
     font-size: 4.5rem;
+}
+
+.about-content {
+    width: 50%;
 }
 
 .about-content h2 {
@@ -195,8 +216,9 @@ span {
 }
 
 .services-container {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     align-items: center;
     flex-wrap: wrap;
     gap: 2rem;
@@ -338,7 +360,7 @@ span {
 }
 
 .contact form .input-box input {
-    width: 49%;
+    width: 100%;
 }
 
 .contact form textarea {
